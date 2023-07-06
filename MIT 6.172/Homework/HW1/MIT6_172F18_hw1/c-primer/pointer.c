@@ -27,21 +27,21 @@ int main(int argc, char * argv[]) {  // What is the type of argv?
   char const * pcc2 = c;  // What is the type of pcc2?
 
   // For each of the following, why is the assignment:
-  *pcc = '7';  // invalid?
+  // *pcc = '7';  // invalid?
   pcc = *pcp;  // valid?
   pcc = argv[0];  // valid?
 
   char * const cp = c;  // cp is a const pointer to char
   // For each of the following, why is the assignment:
-  cp = *pcp;  // invalid?
-  cp = *argv;  // invalid?
+  // cp = *pcp;  // invalid?
+  // cp = *argv;  // invalid?
   *cp = '!';  // valid?
 
   const char * const cpc = c;  // cpc is a const pointer to char const
   // For each of the following, why is the assignment:
-  cpc = *pcp;  // invalid?
-  cpc = argv[0];  // invalid?
-  *cpc = '@';  // invalid?
+  // cpc = *pcp;  // invalid?
+  // cpc = argv[0];  // invalid?
+  // *cpc = '@';  // invalid?
 
   return 0;
 }
