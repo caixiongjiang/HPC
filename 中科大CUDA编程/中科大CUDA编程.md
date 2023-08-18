@@ -908,7 +908,7 @@ __global__ void parallel_reduction() {
 }
 ```
 
-![](/Users/caixiongjiang/Library/Application Support/typora-user-images/image-20230805171617104.png)
+![](https://blog-1311257248.cos.ap-nanjing.myqcloud.com/imgs/%E9%AB%98%E6%80%A7%E8%83%BD%E8%AE%A1%E7%AE%97/img93.jpg)
 
 **因为线程进行计算的方式进行了改变，因为warp是线程调度的基本单位，这样的排列方式可以让更多闲置的线程可以提前释放资源。**
 
