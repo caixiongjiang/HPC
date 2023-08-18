@@ -1,11 +1,10 @@
 //
-// Created by cxj on 2023-8-13.
+// Created by cxj on 2023-08-13.
 //
 #include <armadillo>
 #include <glog/logging.h>
 #include <gtest/gtest.h>
 
-// Google Test
 TEST(test_arma, add) {
   using namespace arma;
   fmat in_matrix1 = "1,2,3;"

@@ -16,7 +16,7 @@ endif()
 set(link_math_lib  ${ARMADILLO_LIBRARIES} ${BLAS_LIBRARIES} ${LAPACK_LIBRARIES})
 aux_source_directory(./test DIR_TEST_ARMA)
 
-add_executable(kuiper_datawhale_course1 course_1_main.cpp ${DIR_TEST_ARMA})
+add_executable(kuiper_datawhale_course1 course1_main.cpp ${DIR_TEST_ARMA})
 target_link_libraries(kuiper_datawhale_course1 ${link_lib} ${link_math_lib} OpenMP::OpenMP_CXX)
 
 target_include_directories(kuiper_datawhale_course1 PUBLIC ${glog_INCLUDE_DIR})

@@ -1,5 +1,5 @@
 //
-// Created by cxj on 2023-8-13.
+// Created by cxj on 2023-08-13.
 //
 #include <armadillo>
 #include <glog/logging.h>
@@ -35,7 +35,7 @@ TEST(test_arma, Axby) {
 
 void EPowerMinus(const arma::fmat &x, arma::fmat &y) {
   // 把代码写这里 完成y = e^{-x}的运算
-  y = arma::exp(-x)
+  y = arma::exp(-x);
 }
 
 TEST(test_arma, e_power_minus) {
