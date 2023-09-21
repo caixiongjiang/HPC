@@ -15,3 +15,4 @@
     docker pull registry.cn-hangzhou.aliyuncs.com/hellofss/kuiperinfer:datawhale
     ```
     * 关于学习项目过程中留下的作业（实现一些类内方法和一些opset等）已经在`从零自制深度学习推理框架/src`中实现并通过Google Test
+    * 关于该项目的总结笔记：[https://caixiongjiang.github.io/blog/2023/hpc/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E6%8E%A8%E7%90%86%E6%A1%86%E6%9E%B6/](https://caixiongjiang.github.io/blog/2023/hpc/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E6%8E%A8%E7%90%86%E6%A1%86%E6%9E%B6/)
